@@ -8,13 +8,7 @@ public abstract class Interaction : ScriptableObject
 {
     public string displayText;
     public InputType activation;
-    public InteractionEvent onActivate;
-}
-
-[System.Serializable]
-public class InteractionEvent : UnityEvent<Interactable>
-{
-
+    public abstract void OnActivate();
 }
 
 public enum InputType
