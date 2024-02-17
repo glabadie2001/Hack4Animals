@@ -5,7 +5,6 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager inst;
 
-    public Transform cursor;
     public Interactable targettedObj;
 
     private void Awake()
@@ -26,7 +25,7 @@ public class GameManager : MonoBehaviour
             UIManager.inst.UpdateHoverUI(targettedObj);
         }
 
-        UpdateCursor();
+        UIManager.inst.UpdateCursor();
     }
 
     Interactable GetHoveredObj()
@@ -38,19 +37,5 @@ public class GameManager : MonoBehaviour
         if (hit[0].transform == null) return null;
 
         return hit[0].transform.GetComponent<Interactable>();
-    }
-
-    void UpdateCursor()
-    {
-        Cursor.visible = false;
-        SpriteRenderer renderer = cursor.GetComponent<SpriteRenderer>();
-
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        cursor.transform.position = new Vector3(mousePos.x, mousePos.y, 0);
-
-        if (targettedObj != null)
-            renderer.color = Color.red;
-        else
-            renderer.color = Color.white;
     }
 }

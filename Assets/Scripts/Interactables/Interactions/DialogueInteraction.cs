@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class DialogueInteraction : Interaction
 {
-
+    public override void OnActivate()
+    {
+        
+    }
 }
