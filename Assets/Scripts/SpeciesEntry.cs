@@ -9,6 +9,7 @@ public class speciesEntry
     public string height;
     public string weight;
     public string desc;
+    public string path;
 
     public speciesEntry()
     {
@@ -17,15 +18,17 @@ public class speciesEntry
         height = "200-330 ft";
         weight = "424 tons";
         desc = "Flavor text";
+        path = "Default";
     }
 
-    public speciesEntry(string _sciName, string _commonName, string _height, string _weight, string _desc)
+    public speciesEntry(string _sciName, string _commonName, string _height, string _weight, string _desc, string _path)
     {
         sciName = _sciName;
         commonName = _commonName;
         height = _height;
         weight = _weight;
         desc = _desc;
+        path = _path;
     }
 }
 
@@ -38,9 +41,5 @@ public class speciesRegistry
     {
         count = _count;
         entries = new speciesEntry[count];
-        for (int i = 0; i < count; i++)
-        {
-            entries[i] = new speciesEntry();
-        }
     }
 }
