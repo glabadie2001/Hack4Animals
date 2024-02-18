@@ -7,6 +7,10 @@ public class GameManager : MonoBehaviour
 
     public Interactable targettedObj;
 
+    public Player player;
+
+    public InventoryItem heldItem;
+
     private void Awake()
     {
         if (inst == null)
