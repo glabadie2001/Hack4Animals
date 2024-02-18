@@ -19,8 +19,6 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI closeText;
     bool showInv;
-    [SerializeField]
-    Image[] images;
 
     private void Awake()
     {
@@ -60,23 +58,5 @@ public class UIManager : MonoBehaviour
             renderer.color = Color.white;
 
         UpdateHoverUI(GameManager.inst.targettedObj);
-    }
-
-    public void DrawInventory(InventoryScript inventory)
-    {
-        int invSize = inventory.inventoryItems.Count;
-        
-        for (int i = 0; i < 8; i++)
-        {
-            if (i < invSize)
-            {
-                images[i].sprite = inventory.inventoryItems[i].image;
-                images[i].preserveAspect = true;
-            }
-            else
-            {
-                images[i].sprite = null;
-            }
-        }
     }
 }
