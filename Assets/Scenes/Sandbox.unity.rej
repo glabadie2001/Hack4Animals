@@ -1,0 +1,130 @@
+diff a/Assets/Scenes/Sandbox.unity b/Assets/Scenes/Sandbox.unity	(rejected hunks)
+@@ -204,15 +204,13 @@
+   m_AutoTiling: 0
+   m_Points:
+     m_Paths:
+-    - - {x: 0.26031947, y: 5.3910627}
+-      - {x: 0.8876342, y: 4.065433}
+-      - {x: 1.3121719, y: 2.6605082}
+-      - {x: 1.0670762, y: 1.5791527}
+-      - {x: 0.1981687, y: -0.19787571}
+-      - {x: 0.17100358, y: -0.9841858}
+-      - {x: 0.31151378, y: -1.7245766}
+-      - {x: 9.607431, y: -1.7631304}
+-      - {x: 9.602099, y: 5.3896823}
++    - - {x: -0.017935753, y: 4.945854}
++      - {x: 1.534776, y: 2.549206}
++      - {x: 1.5261974, y: 1.3982868}
++      - {x: 0.69902796, y: -0.46221802}
++      - {x: 0.5062924, y: -1.293281}
++      - {x: 8.856142, y: -0.8448883}
++      - {x: 8.878635, y: 4.972299}
+   m_UseDelaunayMesh: 0
+ --- !u!1001 &85623903
+ PrefabInstance:
+@@ -468,6 +466,27 @@
+   - {fileID: 2029663277}
+   m_Father: {fileID: 0}
+   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.242}
++--- !u!95 &302428187 stripped
++Animator:
++  m_CorrespondingSourceObject: {fileID: 2232300617975182759, guid: 7532465e83a8b4495bf91aa0b38fdf6a, type: 3}
++  m_PrefabInstance: {fileID: 8960421446224038989}
++  m_PrefabAsset: {fileID: 0}
++--- !u!212 &302428188 stripped
++SpriteRenderer:
++  m_CorrespondingSourceObject: {fileID: 6819140350225091878, guid: 7532465e83a8b4495bf91aa0b38fdf6a, type: 3}
++  m_PrefabInstance: {fileID: 8960421446224038989}
++  m_PrefabAsset: {fileID: 0}
++--- !u!114 &321574211 stripped
++MonoBehaviour:
++  m_CorrespondingSourceObject: {fileID: 4506869251218105501, guid: 7532465e83a8b4495bf91aa0b38fdf6a, type: 3}
++  m_PrefabInstance: {fileID: 8960421446224038989}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 0}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 847a14d4dc9cc43679ab34fc78e0182f, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
+ --- !u!1 &421331488
+ GameObject:
+   m_ObjectHideFlags: 0
+@@ -1192,28 +1217,20 @@
+   m_AutoTiling: 0
+   m_Points:
+     m_Paths:
+-    - - {x: 0.18708475, y: 2.924516}
+-      - {x: -0.7543459, y: 2.6772401}
+-      - {x: -0.8162029, y: 2.1104927}
+-      - {x: -1.0781549, y: 1.4517823}
+-      - {x: -1.5216148, y: 0.7630432}
+-      - {x: -1.9437835, y: 0.07982245}
+-      - {x: -2.309482, y: -0.96029896}
+-      - {x: -2.3991253, y: -1.994261}
+-      - {x: -2.2596483, y: -2.8543196}
+-      - {x: -1.7895489, y: -2.5903137}
+-      - {x: -1.2857687, y: -2.3954883}
+-      - {x: -0.46192002, y: -2.2518575}
+-      - {x: 0.15095204, y: -2.29188}
+-      - {x: 0.57222617, y: -2.4134953}
+-      - {x: 0.30161723, y: -1.7026207}
+-      - {x: 0.17369127, y: -1.0665781}
+-      - {x: 0.1863682, y: -0.45664698}
+-      - {x: 0.31593382, y: 0.09979135}
+-      - {x: 1.012153, y: 1.4142829}
+-      - {x: 1.2501436, y: 2.228548}
+-      - {x: 1.280437, y: 2.5328543}
+-      - {x: 1.2098094, y: 2.8606298}
++    - - {x: 0.20858574, y: 2.731007}
++      - {x: -0.8546838, y: 2.4622302}
++      - {x: -0.89898, y: 1.3801124}
++      - {x: -1.4069428, y: 0.6913732}
++      - {x: -1.9939524, y: 0.1443254}
++      - {x: -2.438488, y: -0.924464}
++      - {x: -2.4349604, y: -1.994261}
++      - {x: -2.0804734, y: -2.7611485}
++      - {x: -0.44758606, y: -2.1443524}
++      - {x: 0.6438961, y: -2.0766463}
++      - {x: 0.49510884, y: -0.69574547}
++      - {x: 1.3920038, y: 1.292444}
++      - {x: 1.5153227, y: 2.0493731}
++      - {x: 1.2599784, y: 2.667121}
+   m_UseDelaunayMesh: 0
+ --- !u!114 &1309788840 stripped
+ MonoBehaviour:
+@@ -1856,31 +1869,20 @@
+     - target: {fileID: 8015911109696465104, guid: 7532465e83a8b4495bf91aa0b38fdf6a, type: 3}
+       propertyPath: rend
+       value: 
+-      objectReference: {fileID: 792545416}
++      objectReference: {fileID: 302428188}
+     - target: {fileID: 8015911109696465104, guid: 7532465e83a8b4495bf91aa0b38fdf6a, type: 3}
+       propertyPath: mover
+       value: 
+-      objectReference: {fileID: 8960421446224038990}
++      objectReference: {fileID: 321574211}
+     - target: {fileID: 8015911109696465104, guid: 7532465e83a8b4495bf91aa0b38fdf6a, type: 3}
+       propertyPath: animator
+       value: 
+-      objectReference: {fileID: 792545415}
++      objectReference: {fileID: 302428187}
+     m_RemovedComponents: []
+     m_RemovedGameObjects: []
+     m_AddedGameObjects: []
+     m_AddedComponents: []
+   m_SourcePrefab: {fileID: 100100000, guid: 7532465e83a8b4495bf91aa0b38fdf6a, type: 3}
+---- !u!114 &8960421446224038990 stripped
+-MonoBehaviour:
+-  m_CorrespondingSourceObject: {fileID: 4506869251218105501, guid: 7532465e83a8b4495bf91aa0b38fdf6a, type: 3}
+-  m_PrefabInstance: {fileID: 8960421446224038989}
+-  m_PrefabAsset: {fileID: 0}
+-  m_GameObject: {fileID: 0}
+-  m_Enabled: 1
+-  m_EditorHideFlags: 0
+-  m_Script: {fileID: 11500000, guid: 847a14d4dc9cc43679ab34fc78e0182f, type: 3}
+-  m_Name: 
+-  m_EditorClassIdentifier: 
+ --- !u!1660057539 &9223372036854775807
+ SceneRoots:
+   m_ObjectHideFlags: 0
