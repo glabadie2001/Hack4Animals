@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class SalmonRunSpawner : MonoBehaviour
+public class SalmonSpawner : MonoBehaviour
 {
     private Collider2D SpawnArea;
 
@@ -15,7 +15,7 @@ public class SalmonRunSpawner : MonoBehaviour
 
     public float Lifetime = 3f;
 
-    private void Awake()
+    private void Start()
     {
         SpawnArea = GetComponent<Collider2D>();
     }
@@ -39,10 +39,13 @@ public class SalmonRunSpawner : MonoBehaviour
             GameObject Prefab = Salmon;
 
             Vector2 Coordinate = new Vector2();
-            Coordinate.x = Random.Range(SpawnArea.bounds.min.x, SpawnArea.bounds.max.x);
+            //Coordinate.x = Random.Range(SpawnArea.bounds.min.x, SpawnArea.bounds.max.x);
+            Coordinate.x = SpawnArea.transform.position.x;
+
             Coordinate.y = Random.Range(SpawnArea.bounds.min.y, SpawnArea.bounds.max.y);
 
             GameObject Fish = Instantiate(Prefab, Coordinate, Quaternion.identity);
+            
             Destroy(Fish, Lifetime);
 
             float Speed = Random.Range(MinVelocity, MaxVelocity);
