@@ -15,7 +15,7 @@ MonoBehaviour:
   activationFlags:
   - flag: canSalmonRun
     state: 1
-  - flag: phase3
+  - flag: salmonRan
     state: 0
   length: 1
   options:

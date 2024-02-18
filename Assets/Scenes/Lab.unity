@@ -216,6 +216,8 @@ MonoBehaviour:
   conversations:
   - {fileID: 11400000, guid: 9d7db82617b5547d1ac3fe77a8afe62a, type: 2}
   - {fileID: 11400000, guid: 7b86417ae341d47a8babe17ff689e6bc, type: 2}
+  - {fileID: 11400000, guid: 655feee740ac141d397ff57f228e4480, type: 2}
+  - {fileID: 11400000, guid: 36267e88b16e84407957d6686a068b57, type: 2}
 --- !u!61 &166185701
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -756,17 +758,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &582559983 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2168358882334077755, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
-  m_PrefabInstance: {fileID: 325930856}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &582757088
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,11 +922,11 @@ PrefabInstance:
     - target: {fileID: 3711784461755252223, guid: 125ec8eeec466425984902dafe96b75a, type: 3}
       propertyPath: dexAnimator
       value: 
-      objectReference: {fileID: 927828787}
+      objectReference: {fileID: 0}
     - target: {fileID: 3711784461755252223, guid: 125ec8eeec466425984902dafe96b75a, type: 3}
       propertyPath: dexOpenText
       value: 
-      objectReference: {fileID: 1443127454}
+      objectReference: {fileID: 0}
     - target: {fileID: 3711784461755252223, guid: 125ec8eeec466425984902dafe96b75a, type: 3}
       propertyPath: invAnimator
       value: 
@@ -947,7 +938,7 @@ PrefabInstance:
     - target: {fileID: 3711784461755252223, guid: 125ec8eeec466425984902dafe96b75a, type: 3}
       propertyPath: dexCloseText
       value: 
-      objectReference: {fileID: 582559983}
+      objectReference: {fileID: 0}
     - target: {fileID: 3711784461755252223, guid: 125ec8eeec466425984902dafe96b75a, type: 3}
       propertyPath: invCloseText
       value: 
@@ -1109,11 +1100,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f23adbf386d18c74fb78a883757d5254, type: 3}
---- !u!95 &927828787 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2459187688065626615, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
-  m_PrefabInstance: {fileID: 325930856}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1011176475
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,7 +1133,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objName: Cedar
   startPos: {x: 0, y: 0, z: 0}
-  conversations: []
+  conversations:
+  - {fileID: 11400000, guid: 2c4fc7bcc9ab24129b7bb312749301aa, type: 2}
+  - {fileID: 11400000, guid: 767dc560fd79d4692aa1135489f3a865, type: 2}
+  - {fileID: 11400000, guid: a9168f63a5b2d402bab1227438fb8259, type: 2}
+  - {fileID: 11400000, guid: 5ce4f18c24503494bb3622956f1f0d8e, type: 2}
 --- !u!61 &1011176477
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1369,17 +1359,6 @@ PolygonCollider2D:
       - {x: -7.760121, y: 3.0741668}
       - {x: -7.7907963, y: 5.1864457}
   m_UseDelaunayMesh: 0
---- !u!114 &1443127454 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3023055328458871678, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
-  m_PrefabInstance: {fileID: 325930856}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1668716111
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,6 +1396,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5bd2ef14a090a414cb713f1220045ac6, type: 2}
   - {fileID: 11400000, guid: f0a68979e8f8046e7b6348afab8abba1, type: 2}
   - {fileID: 11400000, guid: 2bf1b347120a84045bc82100366a06a7, type: 2}
+  - {fileID: 11400000, guid: 90c352cef17bd410caf66e0f592e23ed, type: 2}
 --- !u!61 &1668716113
 BoxCollider2D:
   m_ObjectHideFlags: 0

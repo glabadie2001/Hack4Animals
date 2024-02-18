@@ -19,6 +19,7 @@ MonoBehaviour:
     state: 0
   length: 1
   options:
-  - "And we\u2019re gonna need to bring this, so it has to go in the box\u2026"
+  - "Dr. Sequoia: And we\u2019re gonna need to bring this, so it has to go in the
+    box\u2026"
   postFlag: 
   postItem: {fileID: 0}

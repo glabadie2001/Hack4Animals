@@ -4,19 +4,28 @@ using UnityEngine;
 
 public class SalmonInteractable : SceneChangeInteractable
 {
+    public Conversation[] convos;
+
     public override void OnInteract()
     {
-        if (PersistenceManager.inst.flags["salmonRan"])
-        {
-            Debug.Log("I already did this!");
-        }
-        else if (PersistenceManager.inst.flags["hasFishingNet"])
+
+        if (GameManager.inst.inDialogue) return;
+
+        if (PersistenceManager.inst.flags["hasFishingNet"] && !PersistenceManager.inst.flags["salmonRan"])
         {
             base.OnInteract();
         }
         else
         {
-            Debug.Log("I need something to fish with!");
+            for (int i = 0; i < convos.Length; i++)
+            {
+                Conversation convo = convos[i];
+
+                if (convo.Valid())
+                {
+                    GameObject.Find("DialogueManager").GetComponent<DialogueManager>().conversation(convo);
+                }
+            }
         }
     }
 }

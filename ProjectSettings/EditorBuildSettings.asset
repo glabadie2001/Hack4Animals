@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SalmonRun.unity
     guid: 7b00c8bde15714364bb370fdded0f324
+  - enabled: 1
+    path: Assets/Scenes/Boring.unity
+    guid: b560bbbb8d7ed4ff79d8f7b2ec07c11f
+  - enabled: 1
+    path: Assets/Scenes/Marteni.unity
+    guid: 25cdd01198ebf45c48c15eb730e9301f
   m_configObjects: {}

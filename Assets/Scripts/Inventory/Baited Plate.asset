@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c49e87c8da6fd445883db35115550077, type: 3}
   m_Name: Baited Plate
   m_EditorClassIdentifier: 
-  itemName: 
-  image: {fileID: 0}
+  itemName: Plate with Bait
+  image: {fileID: 21300000, guid: 18accb7ebc58549148b7b7d1360474a3, type: 3}
   description: 
   combinesWith: {fileID: 0}
   combinesTo: {fileID: 0}
-  comboFlag: 
+  comboFlag: hasBaitedPlate
