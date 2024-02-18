@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Interactable : MonoBehaviour
 {
     [SerializeField]
     string objName;
-
-    public List<Interaction> interaction;
 
     public string Name
     {
@@ -31,6 +30,7 @@ public class Interactable : MonoBehaviour
 
     public void HandleInteractions()
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
         OnHover();
 
         if (Input.GetMouseButtonDown(0))

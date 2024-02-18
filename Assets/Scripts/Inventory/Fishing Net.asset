@@ -17,3 +17,4 @@ MonoBehaviour:
   description: 
   combinesWith: {fileID: 0}
   combinesTo: {fileID: 0}
+  comboFlag: hasFishingNet

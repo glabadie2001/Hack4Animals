@@ -12,4 +12,5 @@ public class InventoryItem : ScriptableObject
     public string description;
     public InventoryItem combinesWith;
     public InventoryItem combinesTo;
+    public string comboFlag;
 }

@@ -34,7 +34,7 @@ public class InventoryButton : MonoBehaviour, IPointerEnterHandler, IPointerExit
             }
             else
             {
-                GameManager.inst.player.GetComponent<InventoryScript>().CombineItems(GameManager.inst.heldItem, this.item);
+                InventoryScript.inst.CombineItems(GameManager.inst.heldItem, this.item);
             }
         });
     }

@@ -15,5 +15,6 @@ MonoBehaviour:
   itemName: Net
   image: {fileID: 21300000, guid: 6addf2a753739492f82d35846dfd203c, type: 3}
   description: A fine mesh net.
-  combinesWith: {fileID: 11400000, guid: f2c75378f5f604501ad0f74cbea78bb3, type: 2}
-  combinesTo: {fileID: 11400000, guid: 60583ca77338641f6a70d97230370fd3, type: 2}
+  combinesWith: {fileID: 11400000, guid: 3334773e16417194984b906a3673b180, type: 2}
+  combinesTo: {fileID: 11400000, guid: d82da8ef386efff458de1cde2c6d6cc1, type: 2}
+  comboFlag: 

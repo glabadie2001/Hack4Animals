@@ -17,3 +17,4 @@ MonoBehaviour:
   description: This is the bait for the plate!
   combinesWith: {fileID: 11400000, guid: fc71ebdf9cecc4db6aede471f23739cf, type: 2}
   combinesTo: {fileID: 11400000, guid: b790863d74a934ea2b3e6664563ce798, type: 2}
+  comboFlag: 

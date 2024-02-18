@@ -5,12 +5,18 @@ using UnityEngine.Events;
 
 public class InventoryScript : MonoBehaviour
 {
+    public static InventoryScript inst;
+
     public List<InventoryItem> inventoryItems = new();
 
-    // Use this for initialization
-    void Start()
+    private void Awake()
     {
-        UIManager.inst.DrawInventory(this);
+        if (inst == null)
+            inst = this;
+        else if (inst != this)
+            Destroy(this);
+
+        DontDestroyOnLoad(this);
     }
 
     // Update is called once per frame
@@ -21,14 +27,14 @@ public class InventoryScript : MonoBehaviour
     public bool AddItem(InventoryItem item)
     {
         inventoryItems.Add(item);
-        UIManager.inst.DrawInventory(this);
+        UIManager.inst.DrawInventory();
         return true;
     }
 
     public bool RemoveItem(InventoryItem item)
     {
         inventoryItems.Remove(item);
-        UIManager.inst.DrawInventory(this);
+        UIManager.inst.DrawInventory();
         return true;
     }
 
@@ -46,6 +52,11 @@ public class InventoryScript : MonoBehaviour
         //UIManager.inst.hoverText.text = item1.combinesTo.itemName + " obtained!";
         GameManager.inst.hoverItem = null;
         GameManager.inst.heldItem = null;
+
+        if (item1.combinesTo.comboFlag != "")
+        {
+            PersistenceManager.inst.flags[item1.combinesTo.comboFlag] = true;
+        }
 
         return true;
     }
