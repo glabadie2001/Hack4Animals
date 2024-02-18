@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c49e87c8da6fd445883db35115550077, type: 3}
-  m_Name: Plate
+  m_Name: Fishing Net
   m_EditorClassIdentifier: 
-  itemName: Plate
-  image: {fileID: 21300000, guid: cfbd36221c574423892828d103cc4f86, type: 3}
-  description: This is a plate!
-  combinesWith: {fileID: 11400000, guid: bd53cfd769df7478698c9fd221685c6a, type: 2}
-  combinesTo: {fileID: 11400000, guid: b790863d74a934ea2b3e6664563ce798, type: 2}
+  itemName: Fishing Net
+  image: {fileID: 21300000, guid: a6be997d9fd1d4b8399ae3d73b4c5dec, type: 3}
+  description: 
+  combinesWith: {fileID: 0}
+  combinesTo: {fileID: 0}
