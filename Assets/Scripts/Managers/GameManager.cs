@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 
     public Player player;
 
+    public InventoryItem heldItem;
+
     private void Awake()
     {
         if (inst == null)

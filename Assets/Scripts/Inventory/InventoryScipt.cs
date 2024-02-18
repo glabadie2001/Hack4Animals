@@ -16,7 +16,6 @@ public class InventoryScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
     }
 
     public bool AddItem(InventoryItem item)
@@ -30,6 +29,18 @@ public class InventoryScript : MonoBehaviour
     {
         inventoryItems.Remove(item);
         UIManager.inst.DrawInventory(this);
+        return true;
+    }
+
+    public bool CombineItems(InventoryItem item1, InventoryItem item2)
+    {
+        if (item1.combinesWith != item2.name)
+            return false;
+        
+        inventoryItems.Remove(item1);
+        inventoryItems.Remove(item2);
+        inventoryItems.Add(item1.combinesTo);
+        UIManager.inst.hoverText.text = item1.combinesTo.itemName + " obtained!";
         return true;
     }
 }
