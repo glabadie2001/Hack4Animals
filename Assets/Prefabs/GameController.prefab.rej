@@ -1,0 +1,10 @@
+diff a/Assets/Prefabs/GameController.prefab b/Assets/Prefabs/GameController.prefab	(rejected hunks)
+@@ -62,6 +62,8 @@
+   hoverText: {fileID: 0}
+   cursor: {fileID: 0}
+   invAnimator: {fileID: 0}
++  openText: {fileID: 0}
++  closeText: {fileID: 0}
+ --- !u!114 &7519115794370321441
+ MonoBehaviour:
+   m_ObjectHideFlags: 0
