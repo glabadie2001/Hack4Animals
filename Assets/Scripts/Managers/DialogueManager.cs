@@ -22,8 +22,6 @@ public class DialogueManager : MonoBehaviour
         text = GameObject.Find("DialogueManager").GetComponentInChildren<TMP_Text>();
         transformBox(new Vector3(0, -450, 0), new Vector2(1800, 100));
         hide();
-
-        conversation(test);
     }
 
 
