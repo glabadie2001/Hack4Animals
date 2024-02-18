@@ -22,7 +22,6 @@ public class GameManager : MonoBehaviour
         if (targettedObj != null)
         {
             targettedObj.HandleInteractions();
-            UIManager.inst.UpdateHoverUI(targettedObj);
         }
 
         UIManager.inst.UpdateCursor();

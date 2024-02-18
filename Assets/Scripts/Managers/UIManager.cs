@@ -14,6 +14,10 @@ public class UIManager : MonoBehaviour
 
     [SerializeField]
     Animator invAnimator;
+    [SerializeField]
+    TextMeshProUGUI openText;
+    [SerializeField]
+    TextMeshProUGUI closeText;
     bool showInv;
 
     private void Awake()
@@ -26,13 +30,18 @@ public class UIManager : MonoBehaviour
 
     public void UpdateHoverUI(Interactable hoverObj)
     {
-        
+        if (hoverObj == null)
+            hoverText.text = "";
+        else
+            hoverText.text = hoverObj.Name;
     }
 
     public void ToggleInventory()
     {
         showInv = !showInv;
         invAnimator.SetBool("Opened", showInv);
+        openText.gameObject.SetActive(!showInv);
+        closeText.gameObject.SetActive(showInv);
     }
 
     public void UpdateCursor()
@@ -47,5 +56,7 @@ public class UIManager : MonoBehaviour
             renderer.color = Color.red;
         else
             renderer.color = Color.white;
+
+        UpdateHoverUI(GameManager.inst.targettedObj);
     }
 }
