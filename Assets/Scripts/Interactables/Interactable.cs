@@ -19,7 +19,7 @@ public class Interactable : MonoBehaviour
 
     public virtual void OnInteract()
     {
-
+        
     }
 
     public virtual void OnLook()

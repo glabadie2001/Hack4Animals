@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72e9654bb941d1b4281786ebd20f7636, type: 3}
   m_Name: CedarSleep
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Scripts/Conversations/CedarSleep.asset
   length: 2
   options:
   - '*snore* ... mimimimi...'
   - '*snore* ... mimimimi...'
+=======
+  itemName: Plate
+  image: {fileID: 21300000, guid: cfbd36221c574423892828d103cc4f86, type: 3}
+  description: This is a plate!
+  combinesWith: {fileID: 11400000, guid: bd53cfd769df7478698c9fd221685c6a, type: 2}
+  combinesTo: {fileID: 11400000, guid: b790863d74a934ea2b3e6664563ce798, type: 2}
+>>>>>>> origin/main:Assets/Scripts/Inventory/Plate.asset

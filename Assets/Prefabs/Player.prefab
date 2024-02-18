@@ -118,6 +118,10 @@ GameObject:
   - component: {fileID: 8015911109696465104}
   - component: {fileID: 8579079999004214870}
   - component: {fileID: 4506869251218105501}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 4276398817148655859}
+>>>>>>> origin/main
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -214,3 +218,19 @@ MonoBehaviour:
   targetCompatibility: {fileID: 0}
   repathRateCompatibility: NaN
   canSearchCompability: 0
+<<<<<<< HEAD
+=======
+--- !u!114 &4276398817148655859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040820088140090484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b2eca726c47649ca9bff8d0ed0bd773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryItems: []
+>>>>>>> origin/main
