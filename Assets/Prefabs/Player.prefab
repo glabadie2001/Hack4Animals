@@ -154,6 +154,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seeker: {fileID: 8579079999004214870}
+  mover: {fileID: 4506869251218105501}
+  animator: {fileID: 2232300617975182759}
+  rend: {fileID: 6819140350225091878}
 --- !u!114 &8579079999004214870
 MonoBehaviour:
   m_ObjectHideFlags: 0
