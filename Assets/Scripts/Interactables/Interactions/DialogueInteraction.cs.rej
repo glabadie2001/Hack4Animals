@@ -1,0 +1,9 @@
+diff a/Assets/Scripts/Interactables/Interactions/DialogueInteraction.cs b/Assets/Scripts/Interactables/Interactions/DialogueInteraction.cs	(rejected hunks)
+@@ -4,7 +4,6 @@
+ 
+ public class DialogueInteraction : Interaction
+ {
+-    int convoID = 0;
+     public Conversation convo;
+     public override void OnActivate()
+     {
