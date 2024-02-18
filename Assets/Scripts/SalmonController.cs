@@ -16,6 +16,8 @@ public class SalmonController : MonoBehaviour
             inst = this;
         else if (inst != this)
             Destroy(this);
+
+        Cursor.visible = true;
     }
 
     // Start is called before the first frame update
@@ -31,7 +33,34 @@ public class SalmonController : MonoBehaviour
         CountText.text = "CAUGHT: " + SalmonCount.ToString();
         if (SalmonCount > 9)
         {
+            PersistenceManager.inst.flags["salmonRan"] = true;
             SceneManager.LoadScene("Sandbox", LoadSceneMode.Single);
         }
     }
+
+    //public void UpdateCursor()
+    //{
+    //    Cursor.visible = false;
+    //    Image renderer = cursor.GetComponent<Image>();
+
+    //    Vector3 mousePos = Input.mousePosition;
+    //    cursor.transform.position = new Vector3(mousePos.x, mousePos.y, 0);
+
+    //    if (GameManager.inst.heldItem == null)
+    //    {
+    //        renderer.sprite = defaultCursor;
+
+    //        if (GameManager.inst.targettedObj != null && !EventSystem.current.IsPointerOverGameObject())
+    //            renderer.color = Color.red;
+    //        else
+    //            renderer.color = Color.white;
+    //    }
+    //    else
+    //    {
+    //        renderer.sprite = GameManager.inst.heldItem.image;
+    //        renderer.color = Color.white;
+    //    }
+
+    //    UpdateHoverUI();
+    //}
 }
