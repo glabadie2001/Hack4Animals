@@ -6,6 +6,8 @@ using UnityEngine.EventSystems;
 
 public class Player : MonoBehaviour
 {
+    public static Player inst;
+
     [SerializeField]
     Seeker seeker;
     [SerializeField]
@@ -16,6 +18,14 @@ public class Player : MonoBehaviour
     SpriteRenderer rend;
     float dir = 1;
     Vector3 lastPos;
+
+    private void Awake()
+    {
+        if (inst == null)
+            inst = this;
+        else if (inst != this)
+            Destroy(this);
+    }
 
     private void Update()
     {

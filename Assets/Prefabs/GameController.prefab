@@ -47,6 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targettedObj: {fileID: 0}
+  heldItem: {fileID: 0}
+  hoverItem: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &3711784461755252223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,6 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverText: {fileID: 0}
   cursor: {fileID: 0}
+  defaultCursor: {fileID: 21300000, guid: c18a5a9aa68414ea284a28bcb05a9bea, type: 3}
   invAnimator: {fileID: 0}
 --- !u!114 &7519115794370321441
 MonoBehaviour:
