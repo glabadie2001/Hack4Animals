@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targettedObj: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &3711784461755252223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,8 +63,20 @@ MonoBehaviour:
   hoverText: {fileID: 0}
   cursor: {fileID: 0}
   invAnimator: {fileID: 0}
-  openText: {fileID: 0}
-  closeText: {fileID: 0}
+  invOpenText: {fileID: 0}
+  invCloseText: {fileID: 0}
+  invSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  dexAnimator: {fileID: 0}
+  dexOpenText: {fileID: 0}
+  dexCloseText: {fileID: 0}
 --- !u!114 &7519115794370321441
 MonoBehaviour:
   m_ObjectHideFlags: 0

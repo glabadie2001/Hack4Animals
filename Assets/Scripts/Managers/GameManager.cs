@@ -6,10 +6,11 @@ public class GameManager : MonoBehaviour
     public static GameManager inst;
 
     public Interactable targettedObj;
+    public InventoryItem heldItem;
+    public InventoryItem hoverItem;
 
     public Player player;
 
-    public InventoryItem heldItem;
 
     private void Awake()
     {
@@ -26,6 +27,11 @@ public class GameManager : MonoBehaviour
         if (targettedObj != null)
         {
             targettedObj.HandleInteractions();
+        }
+
+        if (heldItem != null)
+        {
+
         }
 
         UIManager.inst.UpdateCursor();
