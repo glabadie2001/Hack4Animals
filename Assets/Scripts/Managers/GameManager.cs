@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 
     public Interactable targettedObj;
 
+    public Player player;
+
     private void Awake()
     {
         if (inst == null)
