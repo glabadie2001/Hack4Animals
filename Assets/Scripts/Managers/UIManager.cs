@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class UIManager : MonoBehaviour
 {
@@ -39,11 +40,13 @@ public class UIManager : MonoBehaviour
             inst = this;
         else if (inst != this)
             Destroy(this);
+
+        //DontDestroyOnLoad(this);
     }
 
     public void UpdateHoverUI()
     {
-        if (GameManager.inst.targettedObj != null)
+        if (GameManager.inst.targettedObj != null && !EventSystem.current.IsPointerOverGameObject())
         {
             if (GameManager.inst.heldItem != null)
                 hoverText.text = string.Format("Use {0} on {1}", GameManager.inst.heldItem.itemName, GameManager.inst.targettedObj.Name);
@@ -95,7 +98,7 @@ public class UIManager : MonoBehaviour
         {
             renderer.sprite = defaultCursor;
 
-            if (GameManager.inst.targettedObj != null)
+            if (GameManager.inst.targettedObj != null && !EventSystem.current.IsPointerOverGameObject())
                 renderer.color = Color.red;
             else
                 renderer.color = Color.white;
@@ -104,27 +107,22 @@ public class UIManager : MonoBehaviour
         {
             renderer.sprite = GameManager.inst.heldItem.image;
             renderer.color = Color.white;
-
-            //This totally shouldn't be here but its 12:41 AM and I do not care
-            if (Input.GetMouseButtonDown(0))
-            {
-
-            }
         }
 
         UpdateHoverUI();
     }
 
-    public void DrawInventory(InventoryScript inventory)
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+    public void DrawInventory()
     {
-        int invSize = inventory.inventoryItems.Count;
+        int invSize = InventoryScript.inst.inventoryItems.Count;
         
         for (int i = 0; i < 8; i++)
         {
             if (i < invSize)
             {
-                invSlots[i].GetComponent<InventoryButton>().item = inventory.inventoryItems[i];
-                invSlots[i].sprite = inventory.inventoryItems[i].image;
+                invSlots[i].GetComponent<InventoryButton>().item = InventoryScript.inst.inventoryItems[i];
+                invSlots[i].sprite = InventoryScript.inst.inventoryItems[i].image;
                 invSlots[i].preserveAspect = true;
             }
             else

@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
             inst = this;
         else if (inst != this)
             Destroy(this);
+
+        //DontDestroyOnLoad(this);
     }
 
     private void Update()
