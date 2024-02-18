@@ -6,7 +6,11 @@ public class SalmonInteractable : SceneChangeInteractable
 {
     public override void OnInteract()
     {
-        if (PersistenceManager.inst.flags["hasFishingNet"])
+        if (PersistenceManager.inst.flags["salmonRan"])
+        {
+            Debug.Log("I already did this!");
+        }
+        else if (PersistenceManager.inst.flags["hasFishingNet"])
         {
             base.OnInteract();
         }

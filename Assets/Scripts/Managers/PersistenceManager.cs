@@ -22,5 +22,6 @@ public class PersistenceManager : MonoBehaviour
     {
         flags.Add("takenNet", false);
         flags.Add("hasFishingNet", false);
+        flags.Add("salmonRan", false);
     }
 }
