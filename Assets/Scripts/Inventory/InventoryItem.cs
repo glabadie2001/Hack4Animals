@@ -10,4 +10,6 @@ public class InventoryItem : ScriptableObject
     public Sprite image;
     [TextArea]
     public string description;
+    public string combinesWith;
+    public InventoryItem combinesTo;
 }
