@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: b865ab2a79703454bbd994bc493c7a1d
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: big bush
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1751
+      width: 563
+      height: 530
+    spriteID: 420aab82799a640ba8cc2d058dfc2e82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1751}
+    spritePosition: {x: 221, y: 550}
+  - name: redwood
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2289
+      width: 397
+      height: 721
+    spriteID: 944f5228372544365a5460a2f86daff5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2289}
+    spritePosition: {x: 1385, y: 359}
+  - name: small bush 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3018
+      width: 371
+      height: 210
+    spriteID: 657b6315c2f684c93a152b1c5e07fc4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3018}
+    spritePosition: {x: 1535, y: 27}
+  - name: small bushes
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 575
+      y: 1751
+      width: 645
+      height: 448
+    spriteID: a7648c95aa3cd478188eb5ec3f7a4b60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 575, y: 1443}
+    spritePosition: {x: 1008, y: 356}
+  - name: trees
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1902
+      height: 651
+    spriteID: 7cc474ed1e2a142b4883047fef5a885b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 0, y: 429}
+  - name: bridge 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3236
+      width: 412
+      height: 173
+    spriteID: 0b4a0c2b39bf545e69bf51627a08e13f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3236}
+    spritePosition: {x: 771, y: 766}
+  - name: bridge 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3417
+      width: 412
+      height: 173
+    spriteID: b3647fa1fed4f4928a9311c180427825
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3417}
+    spritePosition: {x: 711, y: 143}
+  - name: background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: aaaed835cc41047758b12b1e91d61513
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  rigSpriteImportData:
+  - name: big bush
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1751
+      width: 563
+      height: 530
+    spriteID: 3faf08df8181f474c95d15e47552601c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1751}
+    spritePosition: {x: 221, y: 550}
+  - name: redwood
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2289
+      width: 397
+      height: 721
+    spriteID: b01294d042ee442029c2bc1ce0b3d8fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2289}
+    spritePosition: {x: 1385, y: 359}
+  - name: small bush 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3018
+      width: 371
+      height: 210
+    spriteID: e884e6ca68ddb4f1c82638a01cb6922e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3018}
+    spritePosition: {x: 1535, y: 27}
+  - name: small bushes
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 575
+      y: 1751
+      width: 645
+      height: 448
+    spriteID: 5c86956b5274945e690fcf18b6421936
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 575, y: 1443}
+    spritePosition: {x: 1008, y: 356}
+  - name: trees
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1902
+      height: 651
+    spriteID: 440811f4692754e38a7aae289d6de487
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 0, y: 429}
+  - name: bridge 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3236
+      width: 412
+      height: 173
+    spriteID: b6eeeb7b81bff4ba7941d11b0c7ee86b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3236}
+    spritePosition: {x: 771, y: 766}
+  - name: bridge 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3417
+      width: 412
+      height: 173
+    spriteID: d770892209b28471eb295ccafe5ddb80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3417}
+    spritePosition: {x: 711, y: 143}
+  - name: background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: 6a126dd509eed49dc922eb3dad8e39a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: big bush
+    spriteName: big bush
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 420aab82799a640ba8cc2d058dfc2e82
+    layerID: 0
+    mosaicPosition: {x: 4, y: 1751}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: redwood
+    spriteName: redwood
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 944f5228372544365a5460a2f86daff5
+    layerID: 924660880
+    mosaicPosition: {x: 4, y: 2289}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: small bush 1
+    spriteName: small bush 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 657b6315c2f684c93a152b1c5e07fc4e
+    layerID: 438592338
+    mosaicPosition: {x: 4, y: 3018}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: small bushes
+    spriteName: small bushes
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a7648c95aa3cd478188eb5ec3f7a4b60
+    layerID: 720917409
+    mosaicPosition: {x: 575, y: 1751}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: trees
+    spriteName: trees
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7cc474ed1e2a142b4883047fef5a885b
+    layerID: -784143551
+    mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: bridge 2
+    spriteName: bridge 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0b4a0c2b39bf545e69bf51627a08e13f
+    layerID: -164688291
+    mosaicPosition: {x: 4, y: 3236}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: bridge 1
+    spriteName: bridge 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b3647fa1fed4f4928a9311c180427825
+    layerID: 238596236
+    mosaicPosition: {x: 4, y: 3417}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background
+    spriteName: background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: aaaed835cc41047758b12b1e91d61513
+    layerID: 297084606
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  rigPSDLayers:
+  - name: big bush
+    spriteName: big bush
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3faf08df8181f474c95d15e47552601c
+    layerID: 0
+    mosaicPosition: {x: 4, y: 1751}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: redwood
+    spriteName: redwood
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b01294d042ee442029c2bc1ce0b3d8fd
+    layerID: 924660880
+    mosaicPosition: {x: 4, y: 2289}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: small bush 1
+    spriteName: small bush 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e884e6ca68ddb4f1c82638a01cb6922e
+    layerID: 438592338
+    mosaicPosition: {x: 4, y: 3018}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: small bushes
+    spriteName: small bushes
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5c86956b5274945e690fcf18b6421936
+    layerID: 720917409
+    mosaicPosition: {x: 575, y: 1751}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: trees
+    spriteName: trees
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 440811f4692754e38a7aae289d6de487
+    layerID: -784143551
+    mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: bridge 2
+    spriteName: bridge 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b6eeeb7b81bff4ba7941d11b0c7ee86b
+    layerID: -164688291
+    mosaicPosition: {x: 4, y: 3236}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: bridge 1
+    spriteName: bridge 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d770892209b28471eb295ccafe5ddb80
+    layerID: 238596236
+    mosaicPosition: {x: 4, y: 3417}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background
+    spriteName: background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6a126dd509eed49dc922eb3dad8e39a0
+    layerID: 297084606
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638438012904566150
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

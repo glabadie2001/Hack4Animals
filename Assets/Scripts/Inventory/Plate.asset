@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49e87c8da6fd445883db35115550077, type: 3}
+  m_Name: Plate
+  m_EditorClassIdentifier: 
+  itemName: Plate
+  image: {fileID: 21300000, guid: cfbd36221c574423892828d103cc4f86, type: 3}
+  description: This is a plate!
+  combinesWith: {fileID: 11400000, guid: bd53cfd769df7478698c9fd221685c6a, type: 2}
+  combinesTo: {fileID: 11400000, guid: b790863d74a934ea2b3e6664563ce798, type: 2}
