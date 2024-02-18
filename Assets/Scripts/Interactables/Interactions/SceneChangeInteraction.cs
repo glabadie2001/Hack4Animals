@@ -9,6 +9,7 @@ public class SceneChangeInteractable : Interactable
 
     public override void OnInteract()
     {
+        PersistenceManager.inst.flags["sceneChanged"] = true;
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 }

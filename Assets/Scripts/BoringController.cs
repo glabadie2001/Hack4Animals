@@ -9,6 +9,11 @@ public class BoringController : MonoBehaviour
     public int stageIndex = 0;
     public LayerMask mask;
 
+    private void Awake()
+    {
+        Cursor.visible = true;
+    }
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -16,6 +21,7 @@ public class BoringController : MonoBehaviour
             if (stageIndex == 4)
             {
                 PersistenceManager.inst.flags["bored"] = true;
+                PersistenceManager.inst.flags["sceneChanged"] = true;
                 SceneManager.LoadScene("Sandbox", LoadSceneMode.Single);
             }
 

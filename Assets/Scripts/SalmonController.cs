@@ -34,6 +34,7 @@ public class SalmonController : MonoBehaviour
         if (SalmonCount > 9)
         {
             PersistenceManager.inst.flags["salmonRan"] = true;
+            PersistenceManager.inst.flags["sceneChanged"] = true;
             SceneManager.LoadScene("Sandbox", LoadSceneMode.Single);
         }
     }

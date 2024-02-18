@@ -15,7 +15,7 @@ MonoBehaviour:
   activationFlags:
   - flag: canPlate
     state: 1
-  - flag: foundPrints
+  - flag: baited
     state: 0
   length: 1
   options:

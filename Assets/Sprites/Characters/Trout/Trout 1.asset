@@ -19,11 +19,11 @@ MonoBehaviour:
     state: 0
   length: 6
   options:
-  - "Professor Trout: I already told you, you can\u2019t come on the research trip!"
+  - "Prof. Trout: I already told you, you can\u2019t come on the research trip!"
   - 'Player: Why not?'
-  - 'Professor Trout: We can only bring you on once you get your basic certification.'
-  - 'Professor Trout: You need to get two different researchers to sign off on your
-    skills. '
-  - 'Professor Trout: Try asking around and see how you can help. '
+  - 'Prof. Trout: We can only bring you on once you get your basic certification.'
+  - 'Prof. Trout: You need to get two different researchers to sign off on your skills. '
+  - 'Prof. Trout: Try asking around and see how you can help. '
   - "PC: I\u2019m gonna get on that trip. They can\u2019t leave me!"
   postFlag: phase2
+  postItem: {fileID: 0}

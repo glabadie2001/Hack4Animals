@@ -17,7 +17,7 @@ MonoBehaviour:
     state: 1
   - flag: hasBorer
     state: 1
-  - flag: phase3
+  - flag: bored
     state: 0
   length: 1
   options:

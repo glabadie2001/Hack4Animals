@@ -28,9 +28,14 @@ public class PersistenceManager : MonoBehaviour
         flags.Add("phase2", false);
         flags.Add("phase3", false);
         flags.Add("hasBorer", false);
+        flags.Add("hasPlate", false);
         flags.Add("canSalmonRun", false);
         flags.Add("troutSig", false);
         flags.Add("sequoiaSig", false);
         flags.Add("cedarSig", false);
+        flags.Add("canPlate", false);
+        flags.Add("hasBaitedPlate", false);
+        flags.Add("baited", false);
+        flags.Add("sceneChanged", false);
     }
 }

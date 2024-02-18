@@ -21,7 +21,7 @@ public class UIManager : MonoBehaviour
     TextMeshProUGUI invOpenText;
     [SerializeField]
     TextMeshProUGUI invCloseText;
-    bool showInv;
+    public bool showInv;
     [SerializeField]
     Image[] invSlots;
 
@@ -32,7 +32,13 @@ public class UIManager : MonoBehaviour
     TextMeshProUGUI dexOpenText;
     [SerializeField]
     TextMeshProUGUI dexCloseText;
-    bool showDex;
+    [SerializeField]
+    Image dexImage;
+    [SerializeField]
+    TextMeshProUGUI dexBodyText;
+    public JournalEntry[] dexEntries;
+    public int dexEntry = 0;
+    public bool showDex;
 
     private void Awake()
     {
@@ -42,6 +48,20 @@ public class UIManager : MonoBehaviour
             Destroy(this);
 
         //DontDestroyOnLoad(this);
+    }
+
+    public void IncrementDex()
+    {
+        dexEntry = (dexEntry + 1) % dexEntries.Length;
+        DrawDex();
+    }
+
+    public void DecrementDex()
+    {
+        dexEntry = (dexEntry - 1);
+        if (dexEntry < 0)
+            dexEntry = dexEntries.Length - 1;
+        DrawDex();
     }
 
     public void UpdateHoverUI()
@@ -66,6 +86,12 @@ public class UIManager : MonoBehaviour
 
     public void ToggleInventory()
     {
+        if (PersistenceManager.inst.flags["sceneChanged"])
+        {
+            DrawInventory();
+            PersistenceManager.inst.flags["sceneChanged"] = false;
+        }
+
         if (showDex)
             ToggleDex();
 
@@ -84,6 +110,20 @@ public class UIManager : MonoBehaviour
         dexAnimator.SetBool("Opened", showDex);
         dexOpenText.gameObject.SetActive(!showDex);
         dexCloseText.gameObject.SetActive(showDex);
+
+        DrawDex();
+    }
+
+    public void DrawDex()
+    {
+        JournalEntry entry = dexEntries[dexEntry];
+
+        dexImage.sprite = entry.image;
+
+        if (entry.Active())
+            dexBodyText.text = entry.description;
+        else
+            dexBodyText.text = "";
     }
 
     public void UpdateCursor()
