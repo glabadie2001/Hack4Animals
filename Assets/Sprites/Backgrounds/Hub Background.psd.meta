@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7bf00d186979043629a18066769af7a9
+guid: 8e42420f8a4e14a82ba5cea131f4088c
 importerOverride:
   nativeImporterType: 2089858483
   scriptedImporterType:
@@ -58,9 +58,9 @@ ScriptedImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
     normalMap: 0
     textureFormat: 0
     maxTextureSize: 0
@@ -99,91 +99,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: big bush
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 514
-      y: 2839
-      width: 563
-      height: 530
-    spriteID: bf02d1fb63a1f4ac1818335d5b8d59d1
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 514, y: 2839}
-    spritePosition: {x: 221, y: 550}
-  - name: redwood
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1085
-      y: 3295
-      width: 396
-      height: 721
-    spriteID: 57a25251f0b3f4105bb4efe46b8b6b54
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1085, y: 3295}
-    spritePosition: {x: 1386, y: 359}
-  - name: small bush front
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 514
-      y: 3739
-      width: 302
-      height: 210
-    spriteID: 38d2d54ccec084030acc71634e28cc6f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 514, y: 3739}
-    spritePosition: {x: 1618, y: 35}
-  - name: small bushes
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1085
-      y: 2839
-      width: 645
-      height: 448
-    spriteID: 6ead369910838444ea6f2a8aa8c372b9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1085, y: 2527}
-    spritePosition: {x: 1008, y: 356}
-  - name: trees
+  - name: door
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -191,10 +107,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 2180
-      width: 1902
-      height: 651
-    spriteID: 04ee1993c294f4436a106675e27d1795
+      y: 2520
+      width: 156
+      height: 730
+    spriteID: f95af79e7125e4d679256ecc525414e7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -202,51 +118,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2180}
-    spritePosition: {x: 0, y: 429}
-  - name: front bridge
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 514
-      y: 3377
-      width: 412
-      height: 173
-    spriteID: dc7e3bb79c2184a6f83124e12fc9532e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 514, y: 3377}
-    spritePosition: {x: 711, y: 143}
-  - name: back bridge
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 514
-      y: 3558
-      width: 412
-      height: 173
-    spriteID: 0abfcb5cc06f84918833675e2ab4692e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 514, y: 3558}
-    spritePosition: {x: 771, y: 766}
-  - name: river
+    uvTransform: {x: 4, y: 2520}
+    spritePosition: {x: 1737, y: 22}
+  - name: desk
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -254,10 +128,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 2839
-      width: 502
-      height: 1080
-    spriteID: b2f24699714e647a4a12b9c0f1b7aca7
+      y: 1092
+      width: 549
+      height: 464
+    spriteID: 168c34014df5b4be6b32afa00af81c75
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -265,9 +139,72 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2839}
-    spritePosition: {x: 717, y: 0}
-  - name: river color
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 178, y: 269}
+  - name: bait box
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3258
+      width: 153
+      height: 156
+    spriteID: 01f61b2e2179f479194a63246eeef6a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3258}
+    spritePosition: {x: 1198, y: 403}
+  - name: cabinet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1978
+      width: 370
+      height: 534
+    spriteID: ebc48f78eb2284e2298c81146f51e5eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1978}
+    spritePosition: {x: 1329, y: 384}
+  - name: map
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1564
+      width: 538
+      height: 406
+    spriteID: 586a9be4ad79844658a23b987ba5ef15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1564}
+    spritePosition: {x: 744, y: 550}
+  - name: background
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -278,7 +215,7 @@ ScriptedImporter:
       y: 4
       width: 1920
       height: 1080
-    spriteID: 8df1744f961764c5c8b4b9c4f3e35d40
+    spriteID: c90c96af753bc409d986210d1868d286
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -287,27 +224,6 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 0, y: 0}
-  - name: Paper
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1092
-      width: 1920
-      height: 1080
-    spriteID: da049f7e136aa4ae59c42a382cdafd4e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 1092}
     spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
@@ -324,31 +240,7 @@ ScriptedImporter:
     characterGroups: []
     pivot: {x: 0, y: 0}
     boneReadOnly: 0
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   mosaicLayers: 1
   characterMode: 1
   documentPivot: {x: 0, y: 0}
@@ -369,110 +261,70 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: big bush
-    spriteName: big bush
+  - name: door
+    spriteName: door
     isGroup: 0
     parentIndex: -1
-    spriteID: bf02d1fb63a1f4ac1818335d5b8d59d1
+    spriteID: f95af79e7125e4d679256ecc525414e7
     layerID: 0
-    mosaicPosition: {x: 514, y: 2839}
+    mosaicPosition: {x: 4, y: 2520}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: redwood
-    spriteName: redwood
+  - name: desk
+    spriteName: desk
     isGroup: 0
     parentIndex: -1
-    spriteID: 57a25251f0b3f4105bb4efe46b8b6b54
-    layerID: 924660880
-    mosaicPosition: {x: 1085, y: 3295}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: small bush front
-    spriteName: small bush front
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 38d2d54ccec084030acc71634e28cc6f
-    layerID: 1353537706
-    mosaicPosition: {x: 514, y: 3739}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: small bushes
-    spriteName: small bushes
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 6ead369910838444ea6f2a8aa8c372b9
-    layerID: 720917409
-    mosaicPosition: {x: 1085, y: 2839}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: trees
-    spriteName: trees
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 04ee1993c294f4436a106675e27d1795
-    layerID: -784143551
-    mosaicPosition: {x: 4, y: 2180}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: front bridge
-    spriteName: front bridge
-    isGroup: 0
-    parentIndex: -1
-    spriteID: dc7e3bb79c2184a6f83124e12fc9532e
-    layerID: -1589569626
-    mosaicPosition: {x: 514, y: 3377}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: back bridge
-    spriteName: back bridge
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 0abfcb5cc06f84918833675e2ab4692e
-    layerID: -1741142330
-    mosaicPosition: {x: 514, y: 3558}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: river
-    spriteName: river
-    isGroup: 0
-    parentIndex: -1
-    spriteID: b2f24699714e647a4a12b9c0f1b7aca7
-    layerID: -649877824
-    mosaicPosition: {x: 4, y: 2839}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: river color
-    spriteName: river color
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 8df1744f961764c5c8b4b9c4f3e35d40
-    layerID: -661990309
-    mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Paper
-    spriteName: Paper
-    isGroup: 0
-    parentIndex: -1
-    spriteID: da049f7e136aa4ae59c42a382cdafd4e
-    layerID: -1779142660
+    spriteID: 168c34014df5b4be6b32afa00af81c75
+    layerID: -2081060087
     mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: bait box
+    spriteName: bait box
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 01f61b2e2179f479194a63246eeef6a5
+    layerID: -858407341
+    mosaicPosition: {x: 4, y: 3258}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabinet
+    spriteName: cabinet
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ebc48f78eb2284e2298c81146f51e5eb
+    layerID: 999572870
+    mosaicPosition: {x: 4, y: 1978}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: map
+    spriteName: map
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 586a9be4ad79844658a23b987ba5ef15
+    layerID: 696029452
+    mosaicPosition: {x: 4, y: 1564}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background
+    spriteName: background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c90c96af753bc409d986210d1868d286
+    layerID: 297084606
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638437843947727820
+  platformSettingsDirtyTick: 0
   spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 
