@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e9654bb941d1b4281786ebd20f7636, type: 3}
+  m_Name: Cedar 2
+  m_EditorClassIdentifier: 
+  activationFlags:
+  - flag: phase2
+    state: 1
+  - flag: canPlate
+    state: 0
+  length: 4
+  options:
+  - 'PC: How can I help?'
+  - "Cedar: I forgot where I put that stupid plate\u2026"
+  - 'Cedar: I swear I must have already looked everywhere.'
+  - 'Cedar: Do you think you could <i>find the plate?</i>'
+  postFlag: canPlate
+  postItem: {fileID: 0}

@@ -16,11 +16,12 @@ public class DialogueManager : MonoBehaviour
     private bool advSentence = false;
     private const float textSpeed = 0.033f;
     private float timer = 0.0f;
+
     void Start()
     {
-        box = GameObject.Find("DialogueManager").GetComponentInChildren<RectTransform>();
-        text = GameObject.Find("DialogueManager").GetComponentInChildren<TMP_Text>();
-        transformBox(new Vector3(0, -450, 0), new Vector2(1800, 100));
+        //box = GameObject.Find("DialogueManager").GetComponentInChildren<RectTransform>();
+        //text = GameObject.Find("DialogueManager").GetComponentInChildren<TMP_Text>();
+        //transformBox(new Vector3(0, -450, 0), new Vector2(1800, 100));
         hide();
     }
 
@@ -29,18 +30,19 @@ public class DialogueManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Vector2 mPos = Input.mousePosition;
-            if(mPos.y < 75)
+            if(anim)
             {
-                if(anim)
-                {
-                    advSentence = true;
-                } else
-                {
-                    advPhase = true;
-                }
+                advSentence = true;
+            } else
+            {
+                advPhase = true;
             }
         }
+    }
+
+    void Clear()
+    {
+        text.text = "";
     }
 
     public void transformBox(Vector3 pos, Vector2 size)
@@ -63,6 +65,8 @@ public class DialogueManager : MonoBehaviour
 
     public void conversation(Conversation convo)
     {
+        GameManager.inst.inDialogue = true;
+        box.gameObject.SetActive(true);
         StartCoroutine(conversationManager(convo));
     }
 
@@ -74,22 +78,36 @@ public class DialogueManager : MonoBehaviour
             advPhase = false;
             StartCoroutine(updateText(convo.options[convoPhase]));
             while (!advPhase) yield return false;
+            Clear();
         }
         while (!advPhase) yield return false;
         hide();
+        GameManager.inst.inDialogue = false;
+        if (convo.postFlag != "")
+        {
+            PersistenceManager.inst.flags[convo.postFlag] = true;
+            Debug.Log(PersistenceManager.inst.flags[convo.postFlag]);
+        }
+
+        if (convo.postItem != null)
+        {
+            InventoryScript.inst.AddItem(convo.postItem);
+        }
         yield return true;
     }
 
     public void hide()
     {
+        Debug.Log("Hidden!");
         text.text = string.Empty;
+        box.gameObject.SetActive(false);
         return;
     }
 
     private IEnumerator updateText(string str)
     {
         anim = true;
-        hide();
+        //hide();
         int length = str.Length;
         for (int i = 0; i < str.Length; i += fillInSpeed)
         {

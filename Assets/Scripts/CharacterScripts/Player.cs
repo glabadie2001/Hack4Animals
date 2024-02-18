@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
         if (dir != 0)
             rend.flipX = dir < 0;
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject() && GameManager.inst.targettedObj == null && !GameManager.inst.inDialogue)
         {
             seeker.StartPath(transform.position, new Vector3(mousePos.x, mousePos.y, 0));
         }

@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     public Player player;
 
+    public bool inDialogue = false;
 
     private void Awake()
     {
