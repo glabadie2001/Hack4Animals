@@ -49,6 +49,7 @@ public class MartenController : MonoBehaviour
         }
 
         PersistenceManager.inst.flags["baited"] = true;
+        PersistenceManager.inst.flags["sceneChanged"] = true;
         SceneManager.LoadScene("Sandbox", LoadSceneMode.Single);
     }
 }

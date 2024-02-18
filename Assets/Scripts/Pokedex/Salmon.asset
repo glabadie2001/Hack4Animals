@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08766c2f2378c49b3b7d07dba9b8c42b, type: 3}
   m_Name: Salmon
   m_EditorClassIdentifier: 
-  scientificName: 
-  height: 
-  weight: 
-  image: {fileID: 0}
-  description: 
-  enabled: 0
+  activationFlag: salmonRan
+  image: {fileID: 21300000, guid: 3ba610a44afba457f936180d9ff2a492, type: 3}
+  description: "Scientific Name: Oncorhynchus kisutch\nHeight: 24-30 inches long\nWeight:
+    8-12 lbs\n\nCoho salmon change appearances at different points in their life\u2013young
+    salmon have a special pattern that helps them to camouflage. Older salmon are
+    gray with black spots on their back in the ocean but darken and develop red sides
+    when going into freshwater to spawn. Coho salmon can be found all over the North
+    Pacific Ocean and in streams and rivers connected to it. Although not as populous
+    as they once were, coho salmon are not currently at risk due to overfishing.
+    \n"

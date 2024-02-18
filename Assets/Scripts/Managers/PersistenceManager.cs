@@ -36,5 +36,6 @@ public class PersistenceManager : MonoBehaviour
         flags.Add("canPlate", false);
         flags.Add("hasBaitedPlate", false);
         flags.Add("baited", false);
+        flags.Add("sceneChanged", false);
     }
 }

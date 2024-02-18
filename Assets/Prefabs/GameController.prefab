@@ -50,6 +50,7 @@ MonoBehaviour:
   heldItem: {fileID: 0}
   hoverItem: {fileID: 0}
   player: {fileID: 0}
+  inDialogue: 0
 --- !u!114 &3711784461755252223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,6 +67,27 @@ MonoBehaviour:
   cursor: {fileID: 0}
   defaultCursor: {fileID: 21300000, guid: c18a5a9aa68414ea284a28bcb05a9bea, type: 3}
   invAnimator: {fileID: 0}
+  invOpenText: {fileID: 0}
+  invCloseText: {fileID: 0}
+  invSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  dexAnimator: {fileID: 0}
+  dexOpenText: {fileID: 0}
+  dexCloseText: {fileID: 0}
+  dexImage: {fileID: 0}
+  dexBodyText: {fileID: 0}
+  dexEntries:
+  - {fileID: 11400000, guid: 3c9ecc70e16ef43c8996f35558cae2fe, type: 2}
+  - {fileID: 11400000, guid: bf4ca03e0e7f64860bef786e3169217e, type: 2}
+  - {fileID: 11400000, guid: 8f1c2a45262b14da68562eda80afd9f7, type: 2}
+  dexEntry: 0
 --- !u!114 &7519115794370321441
 MonoBehaviour:
   m_ObjectHideFlags: 0

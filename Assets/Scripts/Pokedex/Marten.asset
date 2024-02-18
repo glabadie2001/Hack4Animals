@@ -12,9 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08766c2f2378c49b3b7d07dba9b8c42b, type: 3}
   m_Name: Marten
   m_EditorClassIdentifier: 
-  scientificName: 
-  height: 
-  weight: 
-  image: {fileID: 0}
-  description: 
-  enabled: 0
+  activationFlag: baited
+  image: {fileID: 21300000, guid: 576747803a15247b1add5206c57f008e, type: 3}
+  description: 'Scientific Name: Martes caurina humboldtensis
+
+    Height: 19-28
+    inches long
+
+    Weight: 1.0 - 2.2 lbs
+
+
+    Humboldt Martens are small carnivores
+    who primarily live in old-growth, closed-canopy forests. They are members of
+    the weasel family and have soft brown fur. While their population is threatened
+    by habitat loss, they recently won federal protection under the federal Endangered
+    Species Act.'

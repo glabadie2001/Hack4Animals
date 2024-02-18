@@ -12,9 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08766c2f2378c49b3b7d07dba9b8c42b, type: 3}
   m_Name: Redwood
   m_EditorClassIdentifier: 
-  scientificName: 
-  height: 
-  weight: 
-  image: {fileID: 0}
-  description: 
-  enabled: 0
+  activationFlag: bored
+  image: {fileID: 21300000, guid: eaf191b693def4dbeaf6ad590b3d445f, type: 3}
+  description: 'Scientific Name: Sequoia sempervirens
+
+    Height: 200-300+ feet
+    tall
+
+    Weight: over one million pounds
+
+
+    The Coast Redwood is the tallest
+    tree species in the world. They grow in coastal areas in Northern California
+    and Oregon where they take advantage of wintertime rain and year-round fog. These
+    trees can live for thousands of years and historically may have been over 400
+    feet tall. Mature redwoods are very resistant to wildfire. The primary threat
+    to redwoods is logging and human development within their habitat, although they
+    can also topple easily in bad weather due to shallow roots.'

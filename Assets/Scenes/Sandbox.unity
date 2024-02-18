@@ -1732,6 +1732,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2055247859}
     - target: {fileID: 3711784461755252223, guid: 125ec8eeec466425984902dafe96b75a, type: 3}
+      propertyPath: dexImage
+      value: 
+      objectReference: {fileID: 8864479615552195911}
+    - target: {fileID: 3711784461755252223, guid: 125ec8eeec466425984902dafe96b75a, type: 3}
       propertyPath: hoverText
       value: 
       objectReference: {fileID: 1362308336}
@@ -1739,6 +1743,10 @@ PrefabInstance:
       propertyPath: dexAnimator
       value: 
       objectReference: {fileID: 1617204349}
+    - target: {fileID: 3711784461755252223, guid: 125ec8eeec466425984902dafe96b75a, type: 3}
+      propertyPath: dexBodyText
+      value: 
+      objectReference: {fileID: 8864479615552195910}
     - target: {fileID: 3711784461755252223, guid: 125ec8eeec466425984902dafe96b75a, type: 3}
       propertyPath: dexOpenText
       value: 
@@ -1844,6 +1852,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1740427266504178652, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1309788840}
+    - target: {fileID: 1740427266504178652, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IncrementDex
+      objectReference: {fileID: 0}
     - target: {fileID: 2001798227716957158, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1872,6 +1888,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1309788840}
+    - target: {fileID: 2970538118530329250, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1309788840}
+    - target: {fileID: 2970538118530329250, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DecrementDex
+      objectReference: {fileID: 0}
     - target: {fileID: 4078324826659595765, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2109,6 +2133,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
+--- !u!114 &8864479615552195910 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1104398000826597003, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
+  m_PrefabInstance: {fileID: 8864479615552195909}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8864479615552195911 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5065690099742374967, guid: ec3bec127c84340bd9c378edd23f56af, type: 3}
+  m_PrefabInstance: {fileID: 8864479615552195909}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8960421446224038989
 PrefabInstance:
   m_ObjectHideFlags: 0
