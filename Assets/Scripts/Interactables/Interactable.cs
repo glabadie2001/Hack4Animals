@@ -7,8 +7,6 @@ public class Interactable : MonoBehaviour
     [SerializeField]
     string objName;
 
-    public List<Interaction> interaction;
-
     public string Name
     {
         get { return objName; }
