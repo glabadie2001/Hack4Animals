@@ -8,8 +8,6 @@ public class GameManager : MonoBehaviour
     public Transform cursor;
     public Interactable targettedObj;
 
-    public speciesRegistry registry; // AFPC
-
     private void Awake()
     {
         if (inst == null)
@@ -21,17 +19,11 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         Cursor.visible = false;
-        registry = new speciesRegistry(3);
-        for (int i = 0; i < registry.count; i++)
-        {
-            Debug.Log("This is a " + registry.entries[i].commonName);
-        }
     }
 
     private void Update()
     {
         UpdateCursor();
-
         targettedObj = GetHoveredObj();
     }
 
