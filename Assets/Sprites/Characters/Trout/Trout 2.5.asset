@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e9654bb941d1b4281786ebd20f7636, type: 3}
+  m_Name: Trout 2.5
+  m_EditorClassIdentifier: 
+  activationFlags:
+  - flag: phase2
+    state: 1
+  - flag: hasBorer
+    state: 1
+  - flag: phase3
+    state: 0
+  length: 1
+  options:
+  - 'Prof. Trout: Did you know you can age a tree by counting its rings?'
+  postFlag: 
+  postItem: {fileID: 0}

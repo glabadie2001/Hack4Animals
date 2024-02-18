@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e9654bb941d1b4281786ebd20f7636, type: 3}
+  m_Name: Trout 1
+  m_EditorClassIdentifier: 
+  activationFlags:
+  - flag: phase1
+    state: 1
+  - flag: phase2
+    state: 0
+  length: 6
+  options:
+  - "Professor Trout: I already told you, you can\u2019t come on the research trip!"
+  - 'Player: Why not?'
+  - 'Professor Trout: We can only bring you on once you get your basic certification.'
+  - 'Professor Trout: You need to get two different researchers to sign off on your
+    skills. '
+  - 'Professor Trout: Try asking around and see how you can help. '
+  - "PC: I\u2019m gonna get on that trip. They can\u2019t leave me!"
+  postFlag: phase2

@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class DialogueInteraction : Interaction
 {
-    public Conversation convo;
+    public Conversation[] convos;
     public override void OnActivate()
     {
-        GameObject.Find("DialogueManager").GetComponent<DialogueManager>().conversation(convo);
+        for (int i = 0; i < convos.Length; i++)
+        {
+            Conversation convo = convos[i];
+
+            if (convo.Valid())
+                GameObject.Find("DialogueManager").GetComponent<DialogueManager>().conversation(convo);
+        }
     }
 }
