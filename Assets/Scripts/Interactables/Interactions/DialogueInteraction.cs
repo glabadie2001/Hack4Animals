@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class DialogueInteraction : Interaction
 {
-    int convoID = 0;
+    public Conversation convo;
     public override void OnActivate()
     {
-        GameObject.Find("DialogueManager").GetComponent<DialogueManager>().conversation(convoID);
+        GameObject.Find("DialogueManager").GetComponent<DialogueManager>().conversation(convo);
     }
 }

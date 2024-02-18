@@ -8,11 +8,12 @@ public class DialogueManager : MonoBehaviour
 {
     public RectTransform box;
     public TMP_Text text;
-    public Conversation[] convos;
+    public Conversation test;
 
     private const int fillInSpeed = 1;
     private bool anim = false;
     private bool advPhase = false;
+    private bool advSentence = false;
     private const float textSpeed = 0.033f;
     private float timer = 0.0f;
     void Start()
@@ -21,6 +22,8 @@ public class DialogueManager : MonoBehaviour
         text = GameObject.Find("DialogueManager").GetComponentInChildren<TMP_Text>();
         transformBox(new Vector3(0, -450, 0), new Vector2(1800, 100));
         hide();
+
+        conversation(test);
     }
 
 
@@ -29,7 +32,16 @@ public class DialogueManager : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 mPos = Input.mousePosition;
-            advPhase = (mPos.y < 75 && !anim ? true : false);
+            if(mPos.y < 75)
+            {
+                if(anim)
+                {
+                    advSentence = true;
+                } else
+                {
+                    advPhase = true;
+                }
+            }
         }
     }
 
@@ -51,20 +63,22 @@ public class DialogueManager : MonoBehaviour
         return;
     }
 
-    public void conversation(int instance)
+    public void conversation(Conversation convo)
     {
-        StartCoroutine(conversationManager(instance));
+        StartCoroutine(conversationManager(convo));
     }
 
-    private IEnumerator conversationManager(int instance)
+    private IEnumerator conversationManager(Conversation convo)
     {
-        int cLen = convos[instance].length;
+        int cLen = convo.length;
         for (int convoPhase = 0; convoPhase < cLen; convoPhase++)
         {
             advPhase = false;
-            StartCoroutine(updateText(convos[instance].options[convoPhase]));
+            StartCoroutine(updateText(convo.options[convoPhase]));
             while (!advPhase) yield return false;
         }
+        while (!advPhase) yield return false;
+        hide();
         yield return true;
     }
 
@@ -81,6 +95,7 @@ public class DialogueManager : MonoBehaviour
         int length = str.Length;
         for (int i = 0; i < str.Length; i += fillInSpeed)
         {
+            
             text.text += str.Substring(i, (length < fillInSpeed ? length : fillInSpeed));
             length -= fillInSpeed;
             while (timer < textSpeed)
@@ -89,6 +104,12 @@ public class DialogueManager : MonoBehaviour
                 yield return false;
             }
             timer = 0.0f;
+            if(advSentence)
+            {
+                text.text = str;
+                i = str.Length;
+            }
+            advSentence = false;
         }
         anim = false;
         yield return true;
