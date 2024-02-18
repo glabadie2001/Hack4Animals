@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class GameManager : MonoBehaviour
@@ -9,12 +9,9 @@ public class GameManager : MonoBehaviour
     public InventoryItem heldItem;
     public InventoryItem hoverItem;
 
-<<<<<<< HEAD
-=======
     public Player player;
 
 
->>>>>>> origin/main
     private void Awake()
     {
         if (inst == null)

@@ -21,8 +21,6 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI invCloseText;
     bool showInv;
-<<<<<<< HEAD
-=======
     [SerializeField]
     Image[] invSlots;
 
@@ -34,7 +32,6 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI dexCloseText;
     bool showDex;
->>>>>>> origin/main
 
     private void Awake()
     {
@@ -117,8 +114,6 @@ public class UIManager : MonoBehaviour
 
         UpdateHoverUI();
     }
-<<<<<<< HEAD
-=======
 
     public void DrawInventory(InventoryScript inventory)
     {
@@ -139,5 +134,4 @@ public class UIManager : MonoBehaviour
             }
         }
     }
->>>>>>> origin/main
 }
