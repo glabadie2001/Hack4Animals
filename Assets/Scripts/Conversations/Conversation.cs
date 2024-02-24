@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Convo", menuName = "H4H", order = -1)]
+[CreateAssetMenu(fileName = "New Convo", menuName = "Conversation", order = -1)]
 public class Conversation : ScriptableObject
 {
     public ActivationCondition[] activationFlags;
-    public int length;
     public string[] options;
     public string postFlag;
     public InventoryItem postItem;

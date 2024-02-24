@@ -72,7 +72,7 @@ public class DialogueManager : MonoBehaviour
 
     private IEnumerator conversationManager(Conversation convo)
     {
-        int cLen = convo.length;
+        int cLen = convo.options.Length;
         for (int convoPhase = 0; convoPhase < cLen; convoPhase++)
         {
             advPhase = false;
