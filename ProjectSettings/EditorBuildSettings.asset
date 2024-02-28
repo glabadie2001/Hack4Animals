@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Lab.unity
     guid: f2c62b4416ba047c19b69f1e347898aa
   - enabled: 1
-    path: Assets/Scenes/Sandbox.unity
+    path: Assets/Scenes/RedwoodForest.unity
     guid: 425cae44782db4a65a4f7c2ccf312511
   - enabled: 1
     path: Assets/Scenes/SalmonRun.unity

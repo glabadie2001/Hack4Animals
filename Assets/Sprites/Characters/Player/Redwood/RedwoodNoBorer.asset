@@ -15,8 +15,7 @@ MonoBehaviour:
   activationFlags:
   - flag: hasBorer
     state: 0
-  length: 1
   options:
-  - 'PC: This must be the biggest tree I''ve seen in my life...'
+  - This must be the biggest tree I've seen in my life...
   postFlag: 
   postItem: {fileID: 0}

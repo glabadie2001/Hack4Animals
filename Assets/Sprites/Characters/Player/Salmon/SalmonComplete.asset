@@ -17,9 +17,8 @@ MonoBehaviour:
     state: 1
   - flag: sequoiaSig
     state: 0
-  length: 2
   options:
-  - 'PC: 10 salmon caught, tagged, and released.'
-  - 'PC: I should hurry back to Dr. Sequoia and let her know I''m done.'
+  - 10 salmon caught, tagged, and released.
+  - I should hurry back to Dr. Sequoia and let her know I'm done.
   postFlag: 
   postItem: {fileID: 0}

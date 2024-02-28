@@ -17,9 +17,8 @@ MonoBehaviour:
     state: 1
   - flag: canPlate
     state: 0
-  length: 4
   options:
-  - 'PC: How can I help?'
+  - How can I help?
   - "Cedar: I forgot where I put that stupid plate\u2026"
   - 'Cedar: I swear I must have already looked everywhere.'
   - 'Cedar: Do you think you could <i>find the plate?</i>'

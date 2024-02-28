@@ -15,8 +15,7 @@ MonoBehaviour:
   activationFlags:
   - flag: takenNet
     state: 0
-  length: 1
   options:
-  - 'PC: This stream is filled with beautiful salmon!'
+  - This stream is filled with beautiful salmon!
   postFlag: 
   postItem: {fileID: 0}

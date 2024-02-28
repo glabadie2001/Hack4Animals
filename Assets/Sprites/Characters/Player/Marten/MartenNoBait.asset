@@ -17,9 +17,8 @@ MonoBehaviour:
     state: 1
   - flag: hasBaitedPlate
     state: 0
-  length: 2
   options:
-  - 'PC: Hmm... I think I need to attract the Martens somehow...'
-  - 'PC: Maybe some bait will do the trick!'
+  - Hmm... I think I need to attract the Martens somehow...
+  - Maybe some bait will do the trick!
   postFlag: 
   postItem: {fileID: 0}

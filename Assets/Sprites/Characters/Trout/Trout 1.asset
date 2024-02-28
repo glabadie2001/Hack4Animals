@@ -17,13 +17,12 @@ MonoBehaviour:
     state: 1
   - flag: phase2
     state: 0
-  length: 6
   options:
   - "Prof. Trout: I already told you, you can\u2019t come on the research trip!"
-  - 'Player: Why not?'
+  - Why not?
   - 'Prof. Trout: We can only bring you on once you get your basic certification.'
   - 'Prof. Trout: You need to get two different researchers to sign off on your skills. '
   - 'Prof. Trout: Try asking around and see how you can help. '
-  - "PC: I\u2019m gonna get on that trip. They can\u2019t leave me!"
+  - "I\u2019m gonna get on that trip. They can\u2019t leave me!"
   postFlag: phase2
   postItem: {fileID: 0}

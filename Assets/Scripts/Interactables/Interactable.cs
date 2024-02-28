@@ -35,12 +35,12 @@ public class Interactable : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            OnInteract();
+            //OnInteract();
         }
 
         if (Input.GetMouseButtonDown(1))
         {
-            OnLook();
+            //OnLook();
         }
     }
 }

@@ -17,9 +17,8 @@ MonoBehaviour:
     state: 1
   - flag: canSalmonRun
     state: 0
-  length: 5
   options:
-  - 'PC: Can I help you with something?'
+  - Can I help you with something?
   - 'Dr. Sequoia: I need some help with tagging these fish.'
   - "Dr. Sequoia: We\u2019re trying to track their population, but they\u2019re so
     hard to catch!"

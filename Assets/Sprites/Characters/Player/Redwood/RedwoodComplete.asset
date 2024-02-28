@@ -17,9 +17,8 @@ MonoBehaviour:
     state: 1
   - flag: troutSig
     state: 0
-  length: 2
   options:
-  - 'PC: That wasn''t too bad!'
-  - 'PC: Professor Trout will want to know that I finished his assignment.'
+  - That wasn't too bad!
+  - Professor Trout will want to know that I finished his assignment.
   postFlag: 
   postItem: {fileID: 0}

@@ -17,9 +17,8 @@ MonoBehaviour:
     state: 1
   - flag: hasFishingNet
     state: 0
-  length: 2
   options:
-  - 'PC: If I throw the net in without a handle I won''t be able to get it back!'
-  - 'PC: There must be something <i>sturdy</i> I can use around here...'
+  - If I throw the net in without a handle I won't be able to get it back!
+  - There must be something <i>sturdy</i> I can use around here...
   postFlag: 
   postItem: {fileID: 0}

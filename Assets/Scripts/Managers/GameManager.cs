@@ -28,11 +28,6 @@ public class GameManager : MonoBehaviour
     {
         targettedObj = GetHoveredObj();
 
-        if (targettedObj != null)
-        {
-            targettedObj.HandleInteractions();
-        }
-
         if (heldItem != null)
         {
 

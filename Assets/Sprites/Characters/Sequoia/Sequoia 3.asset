@@ -19,9 +19,8 @@ MonoBehaviour:
     state: 1
   - flag: sequoiaSig
     state: 0
-  length: 2
   options:
-  - "PC: Can you sign Professor Trout\u2019s form for me?"
+  - "Can you sign Professor Trout\u2019s form for me?"
   - 'Dr. Sequoia: Yes, of course!'
   postFlag: sequoiaSig
   postItem: {fileID: 0}

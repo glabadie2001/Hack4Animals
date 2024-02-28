@@ -15,8 +15,7 @@ MonoBehaviour:
   activationFlags:
   - flag: hasPlate
     state: 0
-  length: 1
   options:
-  - 'PC: There''s some loud rustling coming from this bush!'
+  - There's some loud rustling coming from this bush!
   postFlag: 
   postItem: {fileID: 0}

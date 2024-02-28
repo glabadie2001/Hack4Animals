@@ -17,9 +17,8 @@ MonoBehaviour:
     state: 1
   - flag: hasBorer
     state: 0
-  length: 4
   options:
-  - 'PC: Do you have anything I can do?'
+  - Do you have anything I can do?
   - "Prof. Trout: Sure! Why don\u2019t you help me age a tree?"
   - "Prof. Trout: There\u2019s a big one just across the bridge outside."
   - 'Prof. Trout: Here, take this.'
